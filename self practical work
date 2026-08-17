@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOXPePWNGdw6WqxNgEEW0oH",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/cathy20242/python-project/blob/main/self%20practical%20work\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "I1lE5RCw2UEI",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "outputId": "9f47ab1c-abf9-4666-d801-05f7360e9618"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "expected ':' (2128834982.py, line 4)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_3240/2128834982.py\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    if number > 0\u001b[0m\n\u001b[0m                 ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
+          ]
+        }
+      ],
+      "source": [
+        "number = int(input('enter a number: '))\n",
+        "\n",
+        "#check if number is greater than 0\n",
+        "if number > 0:\n",
+        "print('number is positive number. ')\n",
+        "else :\n",
+        "  print(\"number is a nagative . \")\n",
+        "\n"
+      ]
+    }
+  ]
+}
