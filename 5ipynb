@@ -1,0 +1,312 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPbi7exS4K7F3xZofoHZ4E9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/cathy20242/python-project/blob/main/5ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marks =[75,82,68,91,85]\n",
+        "total =    sum(marks)\n",
+        "count = len(marks)\n",
+        "highest = max(marks)\n",
+        "lowest  = min(marks)\n",
+        "average = (marks)\n",
+        "print(\"marks:\",marks)\n",
+        "print(\"total:\",total)\n",
+        "print(\"n umber of subjects :\",count)\n",
+        "print(\"highest marks:\",highest)\n",
+        "print(\"lowest mark s:\", lowest)"
+      ],
+      "metadata": {
+        "id": "tatrlX2rHXMp",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "e6383cc8-f187-4e1a-f237-574389897b74"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "marks: [75, 82, 68, 91, 85]\n",
+            "total: 401\n",
+            "n umber of subjects : 5\n",
+            "highest marks: 91\n",
+            "lowest mark s: 68\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import  math\n",
+        "n = 25\n",
+        "print(\"square root:\",math.sqrt(n))\n",
+        "print(\"power:\",math.pow(2,3))\n",
+        "print(\"ceiling:\",math.ceil(4.3))\n",
+        "print(\"floor:\",math.floor(4.8))\n",
+        "print(\"factorial:\",math.factorial(5))\n",
+        "print(\"GCD:\",math.gcd(24,36))\n",
+        "print(\"value of pi:\",math.pi)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Sb2exho7WSWa",
+        "outputId": "355e343a-5316-49bb-8960-757801a78edc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "square root: 5.0\n",
+            "power: 8.0\n",
+            "ceiling: 5\n",
+            "floor: 4\n",
+            "factorial: 120\n",
+            "GCD: 12\n",
+            "value of pi: 3.141592653589793\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def greet():\n",
+        "    print(\"welcome to python\" )\n",
+        "greet()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U73OmAKdWSda",
+        "outputId": "a05d3a3b-e3f5-44ef-85b9-6e34e3711212"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcome to python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def greet():\n",
+        "  print(\"MIT WORLD PEACE UNIVERSITY WELCOMES YU TO PYTH ON  CLASS\")\n",
+        "  display()\n",
+        "  display()\n"
+      ],
+      "metadata": {
+        "id": "I1EPTho9WSvC"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def student(name ,age,marks):\n",
+        "  print(\"name:\",name)\n",
+        "  print(\" age:  \", age)\n",
+        "  print(\"marks: \",marks)\n",
+        "  student(\"brenda:\",23 , 19)\n"
+      ],
+      "metadata": {
+        "id": "AsZY8RFSHXWg"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def addition(a ,b):\n",
+        "  result = a + b\n",
+        "  print(\"addition:\",result)\n",
+        "  addition (10 , 20)\n",
+        "\n",
+        "  addition(25 , 15)"
+      ],
+      "metadata": {
+        "id": "Vs2nXeqZiyFe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add(a , b):\n",
+        "\n",
+        "  return (a + b)\n",
+        "\n",
+        "  result = add(10 ,28)\n",
+        "\n",
+        "  print(\"sum =\", result)\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "GWowB9OziyJP"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 10\n",
+        "\n",
+        "def display():\n",
+        "  print(\"value of x :\",x)\n",
+        "\n",
+        "  display()\n"
+      ],
+      "metadata": {
+        "id": "Yq-oN22zs436"
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def largest( a , b ,c):\n",
+        "   return max(a , b, c)\n",
+        "\n",
+        "x = int(input(\"enter first number: \"))\n",
+        "y = int(input(\"enter second number:\"))\n",
+        "z = int(input(\"enter third number:\"))\n",
+        "\n",
+        "result = largest(x ,y,z)\n",
+        "print(\"largest number:\",result)\n"
+      ],
+      "metadata": {
+        "id": "T06MeMXjs48n",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f4fe3673-d50b-4e8d-e52e-803d5ed63655"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter first number: 23\n",
+            "enter second number:78\n",
+            "enter third number:999\n",
+            "largest number: 999\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def calculate_result(m1,m2,m3):\n",
+        "  total= m1 +m2 + m3\n",
+        "  percentage = total/3\n",
+        "  return total , percentage\n",
+        "\n",
+        "  m1 = int(input(\"enter python marks:\"))\n",
+        "  m2 =int(input(\"enter data structure marks:\"))\n",
+        "  m3 =int(input(\"enter database marks:\"))\n",
+        "\n",
+        "  total , percentage = calculate_result(m1 ,m2 ,m3)\n",
+        "\n",
+        "  print(\"total marks:\",total)\n",
+        "  print(\"percentage:,percentage\")"
+      ],
+      "metadata": {
+        "id": "5138vUOPs4-V"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def calculate ():\n",
+        " x = 10\n",
+        " y = 20\n",
+        " print(\"sum:\",x + y)\n",
+        "\n",
+        " calculate()\n"
+      ],
+      "metadata": {
+        "id": "eDz6ZfNAs5BY"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#default argument\n",
+        " def greet (name  =\"guest\"):\n",
+        "      print(\"hie:\",name)\n",
+        "      greet(\"abby\")\n",
+        "      greet()\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "MsqRmS-Es5EO",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "outputId": "db708b38-8d6b-476f-fc3f-11b952c89228"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "unexpected indent (3686383632.py, line 2)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_1291/3686383632.py\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    def greet (name  =\"guest\"):\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unexpected indent\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
