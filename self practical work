@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOXPePWNGdw6WqxNgEEW0oH",
+      "authorship_tag": "ABX9TyNNUKRzejISlXekY2h6juKl",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,35 +28,219 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "source": [
+        "marks = [75,98,45,23,41,89]\n",
+        "total = sum (marks)\n",
+        "count = len (marks)\n",
+        "highest = max (marks)\n",
+        "lowest = min (marks)\n",
+        "average = total/count\n",
+        "print(\"marks:\",marks)\n",
+        "print (\"total:\",total)\n",
+        "print (\"number of subjects:\",count)\n",
+        "print(\"highest marks:\",marks)\n",
+        "print(\"lowest marks:\",marks)\n",
+        "print(\"average marks:\",average)\n",
+        "\n"
+      ],
       "metadata": {
-        "id": "I1lE5RCw2UEI",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zf4M7OEj-mM0",
+        "outputId": "715175ee-87c6-400f-a5ae-6102332add68"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "marks: [75, 98, 45, 23, 41, 89]\n",
+            "total: 371\n",
+            "number of subjects: 6\n",
+            "highest marks: [75, 98, 45, 23, 41, 89]\n",
+            "lowest marks: [75, 98, 45, 23, 41, 89]\n",
+            "average marks: 61.833333333333336\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "n = 25\n",
+        "print(\"square root:\",math.sqrt(n))\n",
+        "print(\"square:\",math.pow(n,2))\n",
+        "print(\"ceiling:\",math.ceil(n))\n",
+        "print(\"floor:\",math.floor(n))\n",
+        "print(\"factorial:\",math.factorial(n))\n",
+        "print(\"GCD:\",math.gcd(n,20))\n",
+        "print(\"value of Pi:\",math.pi)\n",
+        "print(\"value of e:\",math.e)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LzRHqJE8-mIu",
+        "outputId": "bbc4e011-c3d7-4dfa-8020-92e8e7cfc08d"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "square root: 5.0\n",
+            "square: 625.0\n",
+            "ceiling: 25\n",
+            "floor: 25\n",
+            "factorial: 15511210043330985984000000\n",
+            "GCD: 5\n",
+            "value of Pi: 3.141592653589793\n",
+            "value of e: 2.718281828459045\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#use os USER_DEFINED FUNCTION\n",
+        "\n",
+        "#FUNCTION DEFINITION\n",
+        "\n",
+        "def greet():\n",
+        "  print(\"welcome to python programming\")\n",
+        "  display()\n",
+        "  display()"
+      ],
+      "metadata": {
+        "id": "B9EGOMpr-mE4"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#FUNCTION ARGUEMENT AND PARAMETER PASSING\n",
+        "\n",
+        "def addition (a,b):\n",
+        "  result = a + b\n",
+        "  print (\"addition:\",result)\n",
+        "  addition(10 , 20)\n",
+        "  addition(25 , 15)\n",
+        "\n",
+        ""
+      ],
+      "metadata": {
+        "id": "rzG8P-ey-l7Y"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#position arguements\n",
+        "\n",
+        "def student(name,age,roll_no,marks)\n",
+        "print(\"name:\",name)\n"
+      ],
+      "metadata": {
+        "id": "DFRgQta5-l3X"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#default arguement\n",
+        "\n",
+        "def student(name,age,roll_no,marks):\n",
+        "  print(\"name:\",name)\n",
+        "  print(\"age:\",age)\n",
+        "  print(\"roll_no:\",roll_no)\n",
+        "  print(\"marks:\",marks)"
+      ],
+      "metadata": {
+        "id": "RLTOcMQJ-lyn"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# local varieble\n",
+        "\n",
+        "def calculate():\n",
+        "x = 10\n",
+        "y = 20\n",
+        "print(\"sum:\",x + y )\n",
+        "\n",
+        "calculate()\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 106
         },
-        "outputId": "9f47ab1c-abf9-4666-d801-05f7360e9618"
+        "id": "l1-JupRT-ltT",
+        "outputId": "9b19cee7-eb1a-4a42-ecfb-04b419072f57"
       },
+      "execution_count": 13,
       "outputs": [
         {
           "output_type": "error",
-          "ename": "SyntaxError",
-          "evalue": "expected ':' (2128834982.py, line 4)",
+          "ename": "IndentationError",
+          "evalue": "expected an indented block after function definition on line 3 (3029594325.py, line 4)",
           "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_3240/2128834982.py\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    if number > 0\u001b[0m\n\u001b[0m                 ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_1259/3029594325.py\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    x = 10\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m expected an indented block after function definition on line 3\n"
           ]
         }
-      ],
-      "source": [
-        "number = int(input('enter a number: '))\n",
-        "\n",
-        "#check if number is greater than 0\n",
-        "if number > 0:\n",
-        "print('number is positive number. ')\n",
-        "else :\n",
-        "  print(\"number is a nagative . \")\n",
-        "\n"
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#GLOBAL VARIABLES\n",
+        "\n",
+        "x = 100\n",
+        "def display():\n",
+        "  print(\"value of x inside function :\",x)\n",
+        "  display()\n",
+        "  print(\"value of x outside function :\",x)\n"
+      ],
+      "metadata": {
+        "id": "qqUYehI1IxzV"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "jU7JiG-xIxtV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "xyhRTnFmIxjM"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
