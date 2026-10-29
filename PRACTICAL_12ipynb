@@ -1,0 +1,192 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPM0vPwZS5kPI3DCQpGKUYL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/cathy20242/python-project/blob/main/PRACTICAL_12ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#STARK\n",
+        "\n",
+        "stack = [\"plate1\" , \"plate2\" , \"plate3\"]\n",
+        "stack.append(\"plate4\")\n",
+        "stack.append(\"plate5\")\n",
+        "print(stack)\n",
+        "stack.pop()\n",
+        "print(stack)\n",
+        "stack.pop()\n",
+        "print(stack)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "63cEPg-2K7eQ",
+        "outputId": "84c4c23a-bb91-414a-eaa6-23f2d74e2123"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['plate1', 'plate2', 'plate3', 'plate4', 'plate5']\n",
+            "['plate1', 'plate2', 'plate3', 'plate4']\n",
+            "['plate1', 'plate2', 'plate3']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#QUEUE\n",
+        "\n",
+        "queue =[\"person1\" , \"person2\" , \"person3\"]\n",
+        "queue.append(\"person4\")\n",
+        "queue.append(\"person5\")\n",
+        "print(queue)\n",
+        "queue.pop(0)\n",
+        "print(queue)\n",
+        "queue.pop(0)\n",
+        "print(queue)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QTqDINtFK7bW",
+        "outputId": "22066d50-8ae0-47ac-8750-fbca7cd59fbc"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['person1', 'person2', 'person3', 'person4', 'person5']\n",
+            "['person2', 'person3', 'person4', 'person5']\n",
+            "['person3', 'person4', 'person5']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#DEQUE\n",
+        "\n",
+        "from collections import deque\n",
+        "queue = deque([\"person1\" , \"person2\" , \"person3\"])\n",
+        "queue.append(\"person4\")\n",
+        "queue.append(\"person5\")\n",
+        "print(queue)\n",
+        "queue.popleft()\n",
+        "print(queue)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Jh6Ld2qDK7WU",
+        "outputId": "7a2f063a-f5b6-47b2-d46c-85c698aa7d98"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "deque(['person1', 'person2', 'person3', 'person4', 'person5'])\n",
+            "deque(['person2', 'person3', 'person4', 'person5'])\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#remove the first person\n",
+        "\n",
+        "from collections import deque\n",
+        "queue = deque([\"person1\" , \"person2\" , \"person3\"])\n",
+        "queue.append(\"person4\")\n",
+        "queue.append(\"person5\")\n",
+        "print(queue)\n",
+        "queue.popleft()\n",
+        "print(queue)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UtHprDxCK7Tt",
+        "outputId": "312b3d45-7164-421a-ae16-b92ebeb2546b"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "deque(['person1', 'person2', 'person3', 'person4', 'person5'])\n",
+            "deque(['person2', 'person3', 'person4', 'person5'])\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "YZ5CCqyLK7QL"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "jVKWYx27K7LM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "SrHv3F0iK7He"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
